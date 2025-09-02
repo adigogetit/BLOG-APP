@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import BlogList from '../components/blogList'
 import BlogCard from '../components/BlogCard'
+import NewsLetter from '../components/NewsLetter'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <Header/>
     <BlogList/>
     <BlogCard/>
+    <NewsLetter/>
     </>
   )
 }
