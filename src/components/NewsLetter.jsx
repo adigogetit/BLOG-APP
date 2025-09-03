@@ -8,7 +8,7 @@ const NewsLetter = () => {
       <form className='flex items-center justify-between md:h-13 max-w-2xl h-12 w-full'>
         <input className='border border-gray-600 rounded-md h-full border-r-0 outline-none w-full rounded-r-none px-3 text-gray-700' type='text'
         placeholder='Enter the text ' required/>
-        <button type='submit' className='md:px-12 px-8 h-full text-white bg-primary/90 hover:bg-primary transition all cursor-pointer rounded-ms rounded-1-none'>Subscribe!</button>
+        <button type='submit' className='md:px-12 px-8 h-full  text-white bg-primary/90 hover:bg-primary transition all cursor-pointer rounded-ms rounded-1-none'>Subscribe!</button>
       </form>
     </div>
   )
